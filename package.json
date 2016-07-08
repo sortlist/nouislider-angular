@@ -12,6 +12,9 @@
     "slider",
     "nouislider"
   ],
+  "dependencies": {
+    "nouislider": "^8.5.1"
+  },
   "devDependencies": {
     "uglify-js": "^2.4.24"
   },
