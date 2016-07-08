@@ -1,5 +1,7 @@
 "use strict";
 
+var noUiSlider = require("nouislider");
+
 angular.module('ya.nouislider', [])
   .value('yaNoUiSliderConfig', {})
   .directive('yaNoUiSlider', ['$timeout', '$log', 'yaNoUiSliderConfig', function($timeout, $log, yaNoUiSliderConfig) {
